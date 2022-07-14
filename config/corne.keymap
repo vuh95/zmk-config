@@ -18,7 +18,7 @@
             bindings = <&kp SPACE>, <&kp RET>;
         };
     };
-/ {
+    
     behaviors {
         td1: tap_dance_1 {
             compatible = "zmk,behavior-tap-dance";
@@ -29,7 +29,6 @@
         };
     };
     
-/ {
     behaviors {
         td2: tap_dance_2 {
             compatible = "zmk,behavior-tap-dance";
@@ -39,10 +38,8 @@
             bindings = <&kp LC(C)>, <&kp LC(V)>, <&kp LC(X)>;
         };
     };
-/ {
-    
-/ {
-        keymap {
+
+    keymap {
                 compatible = "zmk,keymap";
 
                 default_layer {
