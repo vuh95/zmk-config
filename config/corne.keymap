@@ -25,7 +25,7 @@
             label = "TAP_DANCE_1";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&kp SPACE>, <&kp TAB>;
+            bindings = <&kp SPACE>, <&kp TAB>, <&kp RET>;
         };
     };
     
@@ -38,7 +38,27 @@
             bindings = <&kp LC(C)>, <&kp LC(V)>, <&kp LC(X)>;
         };
     };
-
+    
+    behaviors {
+        td3: tap_dance_3 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_2";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&kp LC(C)>, <&kp LC(V)>, <&kp LC(X)>;
+        };
+    };
+    
+    behaviors {
+        td4: tap_dance_4 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_2";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&kp LC(C)>, <&kp LC(V)>, <&kp LC(X)>;
+        };
+    };
+    
     keymap {
                 compatible = "zmk,keymap";
 
