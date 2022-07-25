@@ -85,10 +85,10 @@
 // | SHFT |     |     |     |     |     |   |  1  |  2  |  3  |  [  |  ]  | ESC  |
 //                    | GUI |     | SPC |   | ENT |     |  0  |
                         bindings = <
-   &kp TAB    &LS(HOME)   &LS(UP)    &LS(END)    &kp N4      &kp N5         &kp N7    &kp N8    &kp N9     &kp PLUS    &kp MINUS   &kp BSPC
-   &kp LCTRL  &LS(LEFT)   &LC(A)     &LS(RIGHT)  &td2        &trans         &kp N4    &kp N5    &kp N6     &kp ASTRK   &kp SLASH   &kp EQUAL
-   &kp LSHFT  &LS(PG_UP)  &LS(DOWN)  &LS(PG_DN)  &trans      &trans         &kp N1    &kp N2    &kp N3     &kp LBKT    &kp RBKT    &kp ESC
-                                       &kp LGUI    &trans      &td1           &td0   &lt 3 DOT    &kp N0
+   &kp TAB    &kp LS(HOME)  &kp LS(UP)    &kp LS(END)    &kp N4     &kp N5         &kp N7    &kp N8    &kp N9     &kp PLUS    &kp MINUS   &kp BSPC
+   &kp LCTRL  &kp LS(LEFT)  &kp LC(A)     &kp LS(RIGHT)  &kp LC(V)  &trans         &kp N4    &kp N5    &kp N6     &kp ASTRK   &kp SLASH   &kp EQUAL
+   &kp LSHFT  &kp LS(PG_UP) &kp LS(DOWN)  &kp LS(PG_DN)  &trans     &trans         &kp N1    &kp N2    &kp N3     &kp LBKT    &kp RBKT    &kp ESC
+                                            &kp LGUI    &trans      &td1           &td0   &lt 3 DOT    &kp N0
                         >;
                 };
 
